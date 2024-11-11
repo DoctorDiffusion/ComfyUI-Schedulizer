@@ -3,7 +3,7 @@
 ****
 
 
-Transcribe audio with [Whisper](https://github.com/openai/whisper/) in [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
+Transcribe audio with [Whisper](https://github.com/openai/whisper/) in [ComfyUI](https://github.com/comfyanonymous/ComfyUI). Turn a songs lyrics into a ready to use format for prompt travel schedules at any desired framerate.
 
 ## Installation
 
