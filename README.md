@@ -27,6 +27,13 @@ Converts the text with timestamps into a usable format for a prompt travel sched
 
 - [yuvraj108c/ComfyUI-Whisper](https://github.com/yuvraj108c/ComfyUI-Whisper)
 
+- [Kosinkadink/ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite)
+
+- [jjkramhoeft/ComfyUI-Jjk-Nodes](https://github.com/jjkramhoeft/ComfyUI-Jjk-Nodes)
+
+
+****
+
 ⭐ If you like the project, please give it a star! ⭐
 
 ## License
