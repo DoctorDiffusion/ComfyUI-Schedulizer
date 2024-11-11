@@ -1,0 +1,397 @@
+{
+  "last_node_id": 43,
+  "last_link_id": 80,
+  "nodes": [
+    {
+      "id": 41,
+      "type": "LoadAudio",
+      "pos": {
+        "0": 11,
+        "1": 43
+      },
+      "size": {
+        "0": 315,
+        "1": 124
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            76
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadAudio"
+      },
+      "widgets_values": [
+        "08 Nightcall.mp3",
+        null,
+        ""
+      ]
+    },
+    {
+      "id": 31,
+      "type": "prompt_schedule_converter",
+      "pos": {
+        "0": 729,
+        "1": 42
+      },
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_with_timestamps",
+          "type": "STRING",
+          "link": 78,
+          "widget": {
+            "name": "text_with_timestamps"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "formatted_text",
+          "type": "STRING",
+          "links": [
+            63
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "prompt_schedule_converter"
+      },
+      "widgets_values": [
+        "",
+        8
+      ]
+    },
+    {
+      "id": 3,
+      "type": "JjkShowText",
+      "pos": {
+        "0": 1076,
+        "1": 43
+      },
+      "size": {
+        "0": 510.8966064453125,
+        "1": 186.5850372314453
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 63,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "JjkShowText"
+      },
+      "widgets_values": [
+        "\"0\" : \"I'm giving you a night called, tell you how I feel\",\n\"328\" : \"I want to drive you through the night, down the hills\",\n\"408\" : \"I gotta tell you something you don't want to hear\",\n\"492\" : \"I'm gonna show you where it's dark, but have no fear\",\n\"592\" : \"There's something inside you, it's hard to explain\",\n\"675\" : \"They're talking about you boy, but you're still the same\",\n\"760\" : \"There's something inside you, it's hard to explain\",\n\"845\" : \"They're talking about you boy, but you're still the same\",\n\"915\" : \"I'm giving you a night called, tell you how I feel\",\n\"998\" : \"I want to drive you through the night, down the hills\",\n\"1082\" : \"I gotta tell you something you don't want to hear\",\n\"1168\" : \"I'm gonna show you where it's dark, but have no fear\",\n\"1266\" : \"There's something inside you, it's hard to explain\",\n\"1350\" : \"They're talking about you boy, but you're still the same\",\n\"1435\" : \"There's something inside you, it's hard to explain\",\n\"1519\" : \"They're talking about you boy, but you're still the same\",\n\"1604\" : \"There's something inside you, it's hard to explain\",\n\"1689\" : \"They're talking about you boy, but you're still the same\",\n\"2053\" : \"Thanks for watching!\",\n\"2069\" : \"Subscribe!\""
+      ]
+    },
+    {
+      "id": 33,
+      "type": "prompt_schedule_converter",
+      "pos": {
+        "0": 730,
+        "1": 182
+      },
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_with_timestamps",
+          "type": "STRING",
+          "link": 77,
+          "widget": {
+            "name": "text_with_timestamps"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "formatted_text",
+          "type": "STRING",
+          "links": [
+            68
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "prompt_schedule_converter"
+      },
+      "widgets_values": [
+        "",
+        30
+      ]
+    },
+    {
+      "id": 34,
+      "type": "JjkShowText",
+      "pos": {
+        "0": 1079,
+        "1": 283
+      },
+      "size": {
+        "0": 508.6365966796875,
+        "1": 164.82504272460938
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 68,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "JjkShowText"
+      },
+      "widgets_values": [
+        "\"0\" : \"I'm giving you a night called, tell you how I feel\",\n\"1230\" : \"I want to drive you through the night, down the hills\",\n\"1530\" : \"I gotta tell you something you don't want to hear\",\n\"1848\" : \"I'm gonna show you where it's dark, but have no fear\",\n\"2223\" : \"There's something inside you, it's hard to explain\",\n\"2532\" : \"They're talking about you boy, but you're still the same\",\n\"2851\" : \"There's something inside you, it's hard to explain\",\n\"3171\" : \"They're talking about you boy, but you're still the same\",\n\"3432\" : \"I'm giving you a night called, tell you how I feel\",\n\"3745\" : \"I want to drive you through the night, down the hills\",\n\"4060\" : \"I gotta tell you something you don't want to hear\",\n\"4381\" : \"I'm gonna show you where it's dark, but have no fear\",\n\"4750\" : \"There's something inside you, it's hard to explain\",\n\"5065\" : \"They're talking about you boy, but you're still the same\",\n\"5383\" : \"There's something inside you, it's hard to explain\",\n\"5698\" : \"They're talking about you boy, but you're still the same\",\n\"6018\" : \"There's something inside you, it's hard to explain\",\n\"6334\" : \"They're talking about you boy, but you're still the same\",\n\"7699\" : \"Thanks for watching!\",\n\"7759\" : \"Subscribe!\""
+      ]
+    },
+    {
+      "id": 43,
+      "type": "JjkShowText",
+      "pos": {
+        "0": 1085,
+        "1": 504
+      },
+      "size": [
+        508.6365966796875,
+        164.82504272460938
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 80,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "JjkShowText"
+      },
+      "widgets_values": [
+        "\"0\" : \"I'm giving you a night called, tell you how I feel\",\n\"984\" : \"I want to drive you through the night, down the hills\",\n\"1224\" : \"I gotta tell you something you don't want to hear\",\n\"1478\" : \"I'm gonna show you where it's dark, but have no fear\",\n\"1778\" : \"There's something inside you, it's hard to explain\",\n\"2025\" : \"They're talking about you boy, but you're still the same\",\n\"2280\" : \"There's something inside you, it's hard to explain\",\n\"2537\" : \"They're talking about you boy, but you're still the same\",\n\"2745\" : \"I'm giving you a night called, tell you how I feel\",\n\"2996\" : \"I want to drive you through the night, down the hills\",\n\"3248\" : \"I gotta tell you something you don't want to hear\",\n\"3504\" : \"I'm gonna show you where it's dark, but have no fear\",\n\"3800\" : \"There's something inside you, it's hard to explain\",\n\"4052\" : \"They're talking about you boy, but you're still the same\",\n\"4307\" : \"There's something inside you, it's hard to explain\",\n\"4558\" : \"They're talking about you boy, but you're still the same\",\n\"4814\" : \"There's something inside you, it's hard to explain\",\n\"5067\" : \"They're talking about you boy, but you're still the same\",\n\"6159\" : \"Thanks for watching!\",\n\"6207\" : \"Subscribe!\""
+      ]
+    },
+    {
+      "id": 42,
+      "type": "prompt_schedule_converter",
+      "pos": {
+        "0": 733,
+        "1": 326
+      },
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_with_timestamps",
+          "type": "STRING",
+          "link": 79,
+          "widget": {
+            "name": "text_with_timestamps"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "formatted_text",
+          "type": "STRING",
+          "links": [
+            80
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "prompt_schedule_converter"
+      },
+      "widgets_values": [
+        "",
+        24
+      ]
+    },
+    {
+      "id": 40,
+      "type": "whisper_node",
+      "pos": {
+        "0": 358,
+        "1": 88
+      },
+      "size": {
+        "0": 330,
+        "1": 78
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 76
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "text_with_timestamps",
+          "type": "STRING",
+          "links": [
+            77,
+            78,
+            79
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "whisper_node"
+      },
+      "widgets_values": [
+        "large-v2"
+      ]
+    }
+  ],
+  "links": [
+    [
+      63,
+      31,
+      0,
+      3,
+      0,
+      "STRING"
+    ],
+    [
+      68,
+      33,
+      0,
+      34,
+      0,
+      "STRING"
+    ],
+    [
+      76,
+      41,
+      0,
+      40,
+      0,
+      "AUDIO"
+    ],
+    [
+      77,
+      40,
+      1,
+      33,
+      0,
+      "STRING"
+    ],
+    [
+      78,
+      40,
+      1,
+      31,
+      0,
+      "STRING"
+    ],
+    [
+      79,
+      40,
+      1,
+      42,
+      0,
+      "STRING"
+    ],
+    [
+      80,
+      42,
+      0,
+      43,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        35.432238985587766,
+        46.52225414406507
+      ]
+    }
+  },
+  "version": 0.4
+}
