@@ -19,6 +19,9 @@ Transcribe audio and get timestamps.
 
 Converts the text with timestamps into a usable format for a prompt travel schedule at a selected frame rate.
 
+![Screenshot 2024-11-11 160110](https://github.com/user-attachments/assets/07cc7518-f3c7-42b0-9c00-b58af0ff0068)
+
+
 ## Credits
 
 - [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
