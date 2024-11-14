@@ -13,7 +13,7 @@ Use the world famous [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manag
 git clone https://github.com/DoctorDiffusion/ComfyUI-Schedulizer.git
 ```
 ```
-cd Schedulizer
+cd ComfyUI-Schedulizer
 ```
 ```
 pip install -r requirements.txt
