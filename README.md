@@ -7,6 +7,8 @@ Transcribe audio with [Whisper](https://github.com/openai/whisper/) in [ComfyUI]
 
 ## Installation
 
+Use - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager) or manual install:
+
 ```
 git clone https://github.com/DoctorDiffusion/ComfyUI-Schedulizer.git
 ```
@@ -35,6 +37,8 @@ Converts the text with timestamps into a usable format for a prompt travel sched
 - [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 
 - [OpenAI/Whisper](https://github.com/openai/whisper)
+
+- [ltdrdata/ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
 
 - [FizzleDorf/ComfyUI_FizzNodes](https://github.com/FizzleDorf/ComfyUI_FizzNodes)
 
