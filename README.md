@@ -8,6 +8,7 @@ Transcribe audio with [Whisper](https://github.com/openai/whisper/) in [ComfyUI]
 ## Installation
 
 Use the world famous [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager) or manually install:
+
 Navagate to your custom node folder ...ComfyUI/custom_nodes
 ```
 git clone https://github.com/DoctorDiffusion/ComfyUI-Schedulizer.git
