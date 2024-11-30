@@ -1,4 +1,4 @@
-# ComfyUI Schedulizer
+# 🔉📋ComfyUI Schedulizer
 
 ****
 
