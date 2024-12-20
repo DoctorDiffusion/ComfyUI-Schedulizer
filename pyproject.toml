@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-schedulizer"
+description = "Nodes:Whisper Node, Prompt Schedule Converter. Convert song lyrics into a useable prompt travel schedule within comfyUI. Includes whisper large-v2."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["openai-whisper", "pillow", "uuid"]
+
+[project.urls]
+Repository = "https://github.com/DoctorDiffusion/ComfyUI-Schedulizer"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Schedulizer"
+Icon = ""
